@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main {
+ public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Digite o primeiro número:");
+   int nump = sc.nextInt();
+   System.out.println("Digite o segundo número:");
+   int nums = sc.nextInt();
+
+
+
+   if(nump > nums) {
+
+     System.out.println("O número " + nump + " é maior que o número " + nums );
+   }
+
+   if (nump < nums) {
+
+     System.out.println( "O número " + nump + " é menor que o número " + nums);
+   }
+
+   else if(nump == nums) {
+
+    System.out.println("Os números são iguais");
+   }
+
+
+
+   
+ }
+}
